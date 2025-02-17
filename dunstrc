@@ -17,23 +17,23 @@
   format = "<b>%s</b>\n%b"
 
 [urgency_low]
-  foreground = "#222222"
-  background = "#C5D3E8"
+  foreground = "#7a869f"
+  background = "#222222"
   timeout = 3
   frame_width = 4
-  frame_color = "#C5D3E8"
+  frame_color = "#7a869f"
 
 [urgency_normal]
-  foreground = "#222222"
-  background = "#C5D3E8"
+  foreground = "#62ef80"
+  background = "#222222"
   timeout = 5
   frame_width = 4
-  frame_color = "#d6f70a"
+  frame_color = "#62ef80"
 
 [urgency_critical]
-  foreground = "#222222"
-  background = "#C5D3E8"
+  foreground = "#fc5470"
+  background = "#222222"
   timeout = 10
   frame_width = 4
-  frame_color = "#f7150a"
+  frame_color = "#fc5470"
 
