@@ -20,13 +20,20 @@
   foreground = "#222222"
   background = "#C5D3E8"
   timeout = 3
+  frame_width = 4
+  frame_color = "#C5D3E8"
 
 [urgency_normal]
   foreground = "#222222"
-  background = "#fcf675"
+  background = "#C5D3E8"
   timeout = 5
+  frame_width = 4
+  frame_color = "#d6f70a"
 
 [urgency_critical]
   foreground = "#222222"
-  background = "#fc7575"
+  background = "#C5D3E8"
   timeout = 10
+  frame_width = 4
+  frame_color = "#f7150a"
+
