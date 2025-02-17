@@ -1,0 +1,32 @@
+[global]
+  monitor = 0
+  follow = keyboard
+  width = (250, 500)
+  height = (0, 750)
+  offset = (13, 34)
+  padding = 5
+  horizontal_padding = 5
+  gap_size = 3
+  transparency = 35
+  frame_width = 1
+  frame_color = "#C5D3E8"
+  font = JetBrainsMono Nerd Font:style=Bold:size=13
+  corner_radius = 5
+  min_icon_size = 32
+  max_icon_size = 32
+  format = "<b>%s</b>\n%b"
+
+[urgency_low]
+  foreground = "#222222"
+  background = "#C5D3E8"
+  timeout = 3
+
+[urgency_normal]
+  foreground = "#222222"
+  background = "#fcf675"
+  timeout = 5
+
+[urgency_critical]
+  foreground = "#222222"
+  background = "#fc7575"
+  timeout = 10
